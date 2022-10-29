@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Homework buổi 14</h1>
-
-
+    <form action="">
+      <input type="text" id="date" placeholder="nhập vào ngày" />
+      <input type="text" id="month" placeholder="nhập vào tháng " />
+      <input type="text" id="year" placeholder="nhập vào năm" />
+      <button onclick="handleInput()" type="button">The next day</button>
+      <button onclick="handleInput1()">The previous day</button>
+    </form>
+    <span id="nextday"></span> <br />
+    <span id="preday"></span>
 
     <script src="./hw.js"></script>
-</body>
+  </body>
 </html>
