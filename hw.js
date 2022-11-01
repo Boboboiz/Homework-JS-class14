@@ -174,3 +174,23 @@ function handleRangeNum (){
 
   document.getElementById("rangeNum").innerHTML = read ;
 }
+
+
+//2 
+function handleLogin (){
+ var name = document.getElementById("login");
+
+  if (name === "B"){
+    var log = console.log("Hello dad");
+  } else if ( name === "M") {
+    var log =  console.log("Hello mom");
+  } else if (name === "A") {
+    var log = console.log("Hello brother")
+  } else if (name === "E") {
+    var log = console.log("Hello sister")
+  } else {
+    var log = console.log("Invalid login")
+  }
+
+  document.getElementById("helloUser").innerHTML=log ;
+}
