@@ -13,7 +13,7 @@
       <input type="text" id="month" placeholder="nhập vào tháng " />
       <input type="text" id="year" placeholder="nhập vào năm" />
       <button onclick="handleInput()" type="button">The next day</button>
-      <button onclick="handleInput1()">The previous day</button>
+      <button onclick="handleInput1()" type="button" >The previous day</button>
     </form>
     <span id="nextday"></span> <br />
     <span id="preday"></span>
@@ -23,7 +23,7 @@
       <input type="text" id="date1" placeholder="nhập vào ngày" />
       <input type="text" id="month1" placeholder="nhập vào tháng " />
       <input type="text" id="year1" placeholder="nhập vào năm" />
-      <button onclick="handleInfo()">Number of date</button>
+      <button type="button" onclick="handleInfo()">Number of date</button>
     </form>
     <span id="numberOfDate"></span>
 
@@ -31,16 +31,16 @@
 
     <form action="">
       <input type="text" id="number" placeholder="Nhập vào số có 3 chữ số" />
-      <button onclick="hanldeRead()">Read</button>
+      <button type="button" onclick="handleRead()">Read</button>
     </form>
     <span id="readNumber"></span>
 
   <hr />
     <form action="">
       <input type="text" id="num1" placeholder="nhập vào số thứ 1" />
-      <input type="text" id="num2" placeholder="nhập vào số thứ 1" />
-      <input type="text" id="num3" placeholder="nhập vào số thứ 1" />
-      <button onclick="handleRangeNum()">Range number</button>
+      <input type="text" id="num2" placeholder="nhập vào số thứ 2" />
+      <input type="text" id="num3" placeholder="nhập vào số thứ 3" />
+      <button type="button" onclick="handleRangeNum()" >Range number</button>
     </form>
     <span id="rangeNum"></span>
 
@@ -48,9 +48,29 @@
 
     <form action="">
       <input type="text"  id="login">
-      <button onclick="handleLogin()">Login</button>
+      <button type="button" onclick="handleLogin()">Login</button>
     </form>
     <span id="helloUser"></span>
+    <hr />
+
+
+    <form action="">
+      <input type="text" id="number1" placeholder="nhập vào số thứ 1" />
+      <input type="text" id="number2" placeholder="nhập vào số thứ 2" />
+      <input type="text" id="number3" placeholder="nhập vào số thứ 3" />
+      <button type="button" onclick="handleCount1()">Count</button>
+    </form>
+    <span id="count"></span>
+    <hr />
+
+    <form action="">
+      <input type="text" id="edge1" placeholder="nhập độ dài cạnh thứ 1" />
+      <input type="text" id="edge2" placeholder="nhập độ dài cạnh thứ 2" />
+      <input type="text" id="edge3" placeholder="nhập độ dài cạnh thứ 3" />
+      <button type="button" onclick="handleInfo()">Count</button>
+    </form>
+    <span id="infoTriangle"></span>
+
 
 
     <script src="./hw.js"></script>
